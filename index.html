@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <title>AI Poems Generator</title>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="" />
     <link rel="stylesheet" href="src/styles.css" />
@@ -30,6 +31,7 @@
           required
           autocomplete="off"
           class="instructions-box"
+          id="user-instructions"
         />
         <input id="submit-btn" type="submit" value="Submit" />
       </form>
@@ -52,6 +54,6 @@
         >on Netlify</a
       >
     </footer>
-    <script src="app.js"></script>
+    <script src="src/app.js"></script>
   </body>
 </html>

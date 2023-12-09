@@ -27,6 +27,7 @@ h1 {
   border-radius: 5px;
   line-height: 30px;
   color: #495e43;
+  width: 300px;
 }
 #submit-btn {
   color: #637a5e;
@@ -35,6 +36,13 @@ h1 {
   background-color: #8ab280;
   color: white;
   line-height: 30px;
+}
+
+.hint {
+  margin-top: -25px;
+  font-size: 12px;
+  margin-left: -170px;
+  color: #495e43;
 }
 
 .poem {
@@ -47,6 +55,7 @@ h1 {
 
 #poem-content {
   margin-left: 80px;
+  color: #495e43;
 }
 
 form {

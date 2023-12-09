@@ -43,6 +43,8 @@ h1 {
   font-size: 12px;
   margin-left: -170px;
   color: #495e43;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
 
 .poem {
@@ -56,6 +58,8 @@ h1 {
 #poem-content {
   margin-left: 80px;
   color: #495e43;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
 }
 
 form {
@@ -72,4 +76,6 @@ footer {
   margin-top: -80px;
   text-align: center;
   font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
